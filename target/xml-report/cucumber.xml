@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="25.648">
+<testcase classname="Read all customer data" name="read all data coming as JSON with api" time="16.286">
+<system-out><![CDATA[Given user provides the api end point to set response using "https://www.gmibank.com/api/tp-customers".passed
+Given user is desirlializing all data to Java...............................passed
+And validate them from data set.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Read all customer data" name="read all data coming as JSON with api 2" time="7.222">
+<system-out><![CDATA[Given user provides the api end point to set response using "https://www.gmibank.com/api/tp-customers".passed
+Given user is desirlializing all data to Java...............................passed
+And validate them one by one................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
